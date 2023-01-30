@@ -40,25 +40,4 @@ onEvent('recipes', event => {
         e:'botania:elementium_ingot',r:'botania:rune_spring',p:'botania:terra_plate',u:'botania:rune_autumn',
         s:'botania:rune_summer',f:'mythicbotany:alfheim_rune',w:'botania:rune_winter'
     })
-//添加纤维绳合成配方
-    event.shaped('1x kubejs:fibre_rope',[
-        'ff',
-        'f '
-    ],{
-        f:'kubejs:fibre'
-    })
-//添加粗制小刀合成配方
-    event.shaped('1x kubejs:rough_knife',[
-        's',
-        't'
-    ],{
-        s:'kubejs:flint_fragments',t:'minecraft:stick'
-    })
-//添加燧石斧合成配方
-    event.shaped('1x kubejs:rough_axe',[
-        'sr',
-        ' t'
-    ],{
-        s:'kubejs:flint_fragments',r:'kubejs:fibre_rope',t:'minecraft:stick'
-    })
 })
