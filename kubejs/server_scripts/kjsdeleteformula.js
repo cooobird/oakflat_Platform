@@ -10,5 +10,9 @@ onEvent('recipes', event => {
    event.remove({output:'extrabotany:elementrune',input:'extrabotany:elementrune'})//删除元灵符文合成配方
    event.remove({output:'createsupercharged:creative_mechanism'})//删除创造构件配方
    event.remove({input:'minecraft:blaze_powder',output:'minecraft:ender_eye'})//删除末影之眼使用烈焰粉合成的配方
+   event.remove({input:'betterendforge:amber_gem',output:'minecraft:ender_eye'})//删除末影之眼使用琥珀合成的配方
    event.remove({output:'create_stuff_additions:brass_portable_drill'})//删除黄铜便携式钻头合成配方
+   event.remove({input:'createsupercharged:basalt_fractal'})//删除玄武岩分形加入的所有配方
+   event.remove({output:'#minecraft:planks',not:{mod:"quark"}})//删除木板合成配方
+   event.remove({output:'extrabotany:thechaos'})//删除混沌物质合成配方
     })

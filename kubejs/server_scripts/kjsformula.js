@@ -40,4 +40,23 @@ onEvent('recipes', event => {
         e:'botania:elementium_ingot',r:'botania:rune_spring',p:'botania:terra_plate',u:'botania:rune_autumn',
         s:'botania:rune_summer',f:'mythicbotany:alfheim_rune',w:'botania:rune_winter'
     })
+//奈布之锤合成配方
+    event.shaped('atum:nebu_hammer',[
+        'nn ',
+        'ns ',
+        ' s '
+    ],{
+        n:'atum:nebu_ingot',s:'minecraft:stick'
+    })
+//燧石斧合成配方
+    event.shaped('notreepunching:flint_axe',[
+        'fp ',
+        ' s ',
+        '   '
+    ],{
+        f:'notreepunching:flint_shard',p:'notreepunching:plant_string',s:'minecraft:stick'
+    })
 })
+
+
+    

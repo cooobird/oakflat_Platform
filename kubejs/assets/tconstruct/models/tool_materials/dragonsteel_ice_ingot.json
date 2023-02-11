@@ -1,0 +1,49 @@
+{
+    "fallbacks": [
+      "chain",
+      "metal"
+    ],
+    "generator": {
+      "transformer": {
+        "type": "tconstruct:recolor_sprite",
+        "color_mapping": {
+          "type": "tconstruct:grey_to_color",
+          "palette": [
+            {
+              "grey": 0,
+              "color": "FF000000"
+            },
+            {
+              "grey": 63,
+              "color": "FF000000"
+            },
+            {
+              "grey": 102,
+              "color": "FF123a4d"
+            },
+            {
+              "grey": 140,
+              "color": "FF174d74"
+            },
+            {
+              "grey": 178,
+              "color": "FF3679a8"
+            },
+            {
+              "grey": 216,
+              "color": "FF5fa5d6"
+            },
+            {
+              "grey": 255,
+              "color": "FFc2e5fe"
+            }
+          ]
+        }
+      },
+      "supportedStats": [
+        "tconstruct:extra",
+        "tconstruct:repair_kit"
+      ],
+      "ignoreMaterialStats": false
+    }
+  }

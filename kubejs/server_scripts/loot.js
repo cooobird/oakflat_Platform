@@ -1,10 +1,7 @@
 onEvent("lootjs", (event) => {
-    event//添加纤维为掉落物
-        .addBlockLootModifier("minecraft:grass")
-        .thenAdd("kubejs:fibre");
     event//删除短弓掉落
         .addEntityLootModifier("atum:nomad")
-        .thenRemove('atum:short_bow');
+        .thenRemove('atum:short_bow')
     event//删除炼狱锻锤掉落
         .addEntityLootModifier("cataclysm:netherite_monstrosity")
         .thenRemove('cataclysm:infernal_forge')
@@ -38,23 +35,5 @@ onEvent("lootjs", (event) => {
     event//删除僵尸的手臂掉落
         .addEntityLootModifier("minecraft:zombie")
         .thenRemove('undead_expansion:rotting_arm')
-    event//删除尖牙之剑掉落
-        .addEntityLootModifier("undead_expansion:wandering_knight_leader")
-        .thenRemove('undead_expansion:fang_sword')
-    event//删除生锈一套掉落
-        .addEntityLootModifier("undead_expansion:wandering_knight")
-        .thenRemove('undead_expansion:rusty_sword')
-    event
-        .addEntityLootModifier("undead_expansion:wandering_knight")
-        .thenRemove('undead_expansion:rusty_pickaxe')
-    event
-        .addEntityLootModifier("undead_expansion:wandering_knight")
-        .thenRemove('undead_expansion:rusty_axe')
-    event
-        .addEntityLootModifier("undead_expansion:wandering_knight")
-        .thenRemove('undead_expansion:rusty_hoe')
-    event
-        .addEntityLootModifier("undead_expansion:wandering_knight")
-        .thenRemove('undead_expansion:rusty_shovel')
 
 });
