@@ -11,6 +11,7 @@ mods.jei.JEI.hideRegex(".*pick");
 mods.jei.JEI.hideRegex(".*paxel");
 mods.jei.JEI.hideRegex(".*saber");
 mods.jei.JEI.hideRegex(".*ammo.*");
+mods.jei.JEI.hideRegex(".*aurinium.*");
 JEI.hideIngredient(<item:endlessocean:jetski>);
 JEI.hideIngredient(<item:create_stuff_additions:blazing_cleaver>);
 JEI.hideIngredient(<item:extrabotany:excaliber>);
@@ -114,7 +115,8 @@ JEI.hideIngredient(<item:minecraft:bow>);
 JEI.hideIngredient(<item:pneumaticcraft:minigun>);
 JEI.hideIngredient(<item:extrabotany:silverbullet>);
 JEI.hideIngredient(<item:create_stuff_additions:blaze_flame_thrower>);
-
+JEI.hideIngredient(<item:create:potato_cannon>);
+JEI.hideIngredient(<item:appliedenergistics2:facade>);
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);

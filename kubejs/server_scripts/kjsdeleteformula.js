@@ -15,4 +15,6 @@ onEvent('recipes', event => {
    event.remove({input:'createsupercharged:basalt_fractal'})//删除玄武岩分形加入的所有配方
    event.remove({output:'#minecraft:planks',not:{mod:"quark"}})//删除木板合成配方
    event.remove({output:'extrabotany:thechaos'})//删除混沌物质合成配方
+   event.remove({output:/.*aurinium.*/})//删除aurinium合成配方
+   event.remove({output:'appliedenergistics2:facade'})
     })

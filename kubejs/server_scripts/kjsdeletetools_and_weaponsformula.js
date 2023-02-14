@@ -41,4 +41,5 @@ onEvent('recipes', event => {
     event.remove({output:'pneumaticcraft:minigun'})
     event.remove({output:'extrabotany:silverbullet'})
     event.remove({output:'create_stuff_additions:blaze_flame_thrower'})
+    event.remove({output:'create:potato_cannon'})
 })
