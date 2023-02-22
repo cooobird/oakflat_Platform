@@ -1,0 +1,36 @@
+//匠魂特性更改属性  conditional（条件）
+"type": "tconstruct:extra_slot"//额外升级槽
+"type": "tconstruct:conditional_mining_speed"//挖掘速度
+"type": "tconstruct:conditional_damage"//伤害
+"type": "tconstruct:stat_boost//工具精确度
+
+例子
+{   
+  "type": "tconstruct:extra_slot",//额外升级槽
+  "level_display": "tconstruct:default",
+  "always_show": true, //效果展示：开/关
+  "slots": {
+    "upgrades": 1 //升级槽+1
+  }
+}
+
+
+{
+  "type": "tconstruct:conditional_mining_speed",//挖掘速度
+  "blocks": {                                   //方块
+    "type": "tconstruct:tag",                   //标签？
+    "tag": "tinkers_things:hemotoxin_blocks"    //应用材料
+  },
+  "require_effective": true,                    //效果展示：开/关
+  "bonus": -6                                   //每级-6采掘速度
+}
+
+
+{
+  "type": "tconstruct:conditional_damage",//伤害
+  "entity": {                            //实体
+    "type": "tconstruct:mob_type",      //实体范围
+    "mobs": "minecraft:undead"          //亡灵生物
+  },
+  "damage": -3.0                        //每级伤害-3
+}

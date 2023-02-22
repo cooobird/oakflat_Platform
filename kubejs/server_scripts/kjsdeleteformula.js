@@ -17,4 +17,8 @@ onEvent('recipes', event => {
    event.remove({output:'extrabotany:thechaos'})//删除混沌物质合成配方
    event.remove({output:/.*aurinium.*/})//删除aurinium合成配方
    event.remove({output:'appliedenergistics2:facade'})
+   event.remove({output:'tconstruct:seared_heater'})//删除焦黑加热器合成配方
+   event.remove({output:'levelhearts:heart_container',input:'minecraft:enchanted_golden_apple'})//删除心之碎片合成心之容器合成配方
+   event.remove({output:'levelhearts:heart_piece'})//删除心之碎片合成配方
+   event.remove({output:'elementalenhancement:rainbow_apple'})//删除彩虹苹果合成配方
     })

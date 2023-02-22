@@ -56,6 +56,22 @@ onEvent('recipes', event => {
     ],{
         f:'notreepunching:flint_shard',p:'notreepunching:plant_string',s:'minecraft:stick'
     })
+//焦黑加热器合成配方
+    event.shaped('tconstruct:seared_heater',[
+        'sss',
+        'sfs',
+        'sss'
+    ],{
+        s:'tconstruct:seared_brick',f:'minecraft:furnace'
+    })
+//修改心之碎片合成配方
+    event.shaped('levelhearts:heart_piece',[
+        'kkk',
+        'grg',
+        'kkk'
+    ],{
+        k:'natureminerals:kunzite_ingot',g:'minecraft:enchanted_golden_apple',r:'elementalenhancement:rainbow_apple'
+    })
 })
 
 

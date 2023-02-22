@@ -27,8 +27,11 @@
 <recipetype:tconstruct:casting_basin>.addItemCastingRecipe("item_smeltery_controller",<item:tconstruct:seared_melter>,<fluid:tconstruct:molten_copper> * 1000,
 <item:tconstruct:smeltery_controller>,400,true,false);
 //熔融龙炎钢合成配方
-<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_fire_ingot",<item:iceandfire:dragonsteel_fire_ingot>,<fluid:kubejs:dragonsteel_fire>*144,1200,50);
+<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_fire_ingot",<item:iceandfire:dragonsteel_fire_ingot>,<fluid:kubejs:molten_dragonsteel_fire>*144,1200,50);
 //熔融龙霜钢合成配方
-<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_ice_ingot",<item:iceandfire:dragonsteel_ice_ingot>,<fluid:kubejs:dragonsteel_ice>*144,1200,50);
+<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_ice_ingot",<item:iceandfire:dragonsteel_ice_ingot>,<fluid:kubejs:molten_dragonsteel_ice>*144,1200,50);
 //熔融龙霆钢合成配方
-<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_lightning_ingot",<item:iceandfire:dragonsteel_lightning_ingot>,<fluid:kubejs:dragonsteel_lightning>*144,1200,50);
+<recipetype:tconstruct:melting>.addDamageableMeltingRecipe("dragonsteel_lightning_ingot",<item:iceandfire:dragonsteel_lightning_ingot>,<fluid:kubejs:molten_dragonsteel_lightning>*144,1200,50);
+//修改彩虹苹果合成配方
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("rainbow_apple",<item:natureminerals:enchanted_thounite_apple>,<fluid:elementalenhancement:molten_rainbow> * 144,
+<item:elementalenhancement:rainbow_apple>,800,true,false);

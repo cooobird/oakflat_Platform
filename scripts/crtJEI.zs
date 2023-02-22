@@ -117,6 +117,18 @@ JEI.hideIngredient(<item:extrabotany:silverbullet>);
 JEI.hideIngredient(<item:create_stuff_additions:blaze_flame_thrower>);
 JEI.hideIngredient(<item:create:potato_cannon>);
 JEI.hideIngredient(<item:appliedenergistics2:facade>);
+JEI.hideIngredient(<item:astralsorcery:crystal_axe>);
+JEI.hideIngredient(<item:astralsorcery:infused_crystal_axe>);
+JEI.hideIngredient(<item:minecraft:trident>);
+JEI.hideIngredient(<item:iceandfire:tide_trident>);
+JEI.hideIngredient(<item:betterendforge:iron_hammer>);
+JEI.hideIngredient(<item:betterendforge:golden_hammer>);
+JEI.hideIngredient(<item:betterendforge:diamond_hammer>);
+JEI.hideIngredient(<item:betterendforge:netherite_hammer>);
+JEI.hideIngredient(<item:betterendforge:terminite_hammer>);
+JEI.hideIngredient(<item:betterendforge:aeternium_hammer>);
+JEI.hideIngredient(<item:botania:terra_axe>);
+JEI.hideIngredient(<item:mythicbotany:alfsteel_axe>);
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);

@@ -2,6 +2,7 @@ import crafttweaker.api.loot.conditions.vanilla.LootTableId;
 import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
 import crafttweaker.api.villagers.VillagerTrades;
+import crafttweaker.api.item.IIngredient;
 
 loot.modifiers.register(
     "remove_resources_from_chests",
@@ -41,3 +42,13 @@ villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:fletcher>, 2, <
 villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletcher>, 4, <item:minecraft:bow>);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:fletcher>, 3, <item:minecraft:crossbow>);
 villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletcher>, 5, <item:minecraft:crossbow>);
+
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_sword");
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_pickaxe");
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_axe");
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_shovel");
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_sword>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_pickaxe>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_axe>);
+<recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_shovel>);
+<recipetype:mythicbotany:rune_ritual>.removeRecipe("mythicbotany:mythicbotany_rune_rituals/mjoellnir");
