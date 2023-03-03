@@ -35,5 +35,13 @@ onEvent("lootjs", (event) => {
     event//删除僵尸的手臂掉落
         .addEntityLootModifier("minecraft:zombie")
         .thenRemove('undead_expansion:rotting_arm')
-
+    event//删除守卫者护手掉落
+        .addEntityLootModifier("cataclysm:ender_guardian")
+        .thenRemove('cataclysm:gauntlet_of_guard')
+    event//删除骏鹰利爪掉落
+        .addEntityLootModifier("iceandfire:hippogryph")
+        .thenRemove('iceandfire:hippogryph_talon')
+    event//删除食人妖大斧掉落
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_axe')
 });

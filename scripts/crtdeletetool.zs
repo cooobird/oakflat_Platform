@@ -52,3 +52,6 @@ villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletche
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_axe>);
 <recipetype:astralsorcery:infusion>.removeRecipe(<item:astralsorcery:infused_crystal_shovel>);
 <recipetype:mythicbotany:rune_ritual>.removeRecipe("mythicbotany:mythicbotany_rune_rituals/mjoellnir");
+mods.iceandfire.DragonForge.removeRecipe("fire",<item:iceandfire:dragonsteel_fire_ingot>);
+mods.iceandfire.DragonForge.removeRecipe("ice",<item:iceandfire:dragonsteel_ice_ingot>);
+mods.iceandfire.DragonForge.removeRecipe("lightning",<item:iceandfire:dragonsteel_lightning_ingot>);

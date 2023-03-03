@@ -129,6 +129,9 @@ JEI.hideIngredient(<item:betterendforge:terminite_hammer>);
 JEI.hideIngredient(<item:betterendforge:aeternium_hammer>);
 JEI.hideIngredient(<item:botania:terra_axe>);
 JEI.hideIngredient(<item:mythicbotany:alfsteel_axe>);
+JEI.hideIngredient(<item:cataclysm:gauntlet_of_guard>);
+JEI.hideIngredient(<item:iceandfire:hippogryph_talon>);
+JEI.hideIngredient(<item:iceandfire:troll_weapon_axe>);
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);

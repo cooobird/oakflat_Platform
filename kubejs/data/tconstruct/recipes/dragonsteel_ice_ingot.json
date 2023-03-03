@@ -1,9 +1,0 @@
-{
-    "type": "tconstruct:material_fluid",
-    "fluid": {
-      "name": "kubejs:dragonsteel_ice",
-      "amount": 144
-    },
-    "temperature": 1200,
-    "output": "tconstruct:dragonsteel_ice_ingot"
-  }

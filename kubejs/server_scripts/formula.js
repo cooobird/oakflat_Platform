@@ -72,7 +72,15 @@ onEvent('recipes', event => {
     ],{
         k:'natureminerals:kunzite_ingot',g:'minecraft:enchanted_golden_apple',r:'elementalenhancement:rainbow_apple'
     })
+//添加龙钢钢柸合成配方
+    event.recipes.createMixing(['kubejs:incomplete_dragonsteel_billet'],['steampowered:steel_ingot','iceandfire:fire_dragon_blood']).superheated()
+    event.recipes.createPressing(['kubejs:dragonsteel_billet'],['kubejs:incomplete_dragonsteel_billet'])
+    event.recipes.createMixing(['kubejs:incomplete_dragonsteel_billet'],['steampowered:steel_ingot','iceandfire:ice_dragon_blood']).superheated()
+    event.recipes.createPressing(['kubejs:dragonsteel_billet'],['kubejs:incomplete_dragonsteel_billet'])
+    event.recipes.createMixing(['kubejs:incomplete_dragonsteel_billet'],['steampowered:steel_ingot','iceandfire:lightning_dragon_blood']).superheated()
+    event.recipes.createPressing(['kubejs:dragonsteel_billet'],['kubejs:incomplete_dragonsteel_billet'])
 })
+
 
 
     

@@ -2,7 +2,14 @@
 "type": "tconstruct:extra_slot"//额外升级槽
 "type": "tconstruct:conditional_mining_speed"//挖掘速度
 "type": "tconstruct:conditional_damage"//伤害
-"type": "tconstruct:stat_boost//工具精确度
+"type": "tconstruct:stat_boost//增加玩家属性
+"type": "tconstruct:swappable_extra_slot"//额外升级槽（可拆卸）
+"type": "tconstruct:mob_disguise"//伪装敌对生物
+"type": "tconstruct:loot"//时运/掠夺
+"type": "tconstruct:enchatment"//附魔
+"type": "tconstruct:mob_effect"//
+"type": "tconstruct:default"
+"type": "tconstruct:tool_belt"
 
 例子
 {   

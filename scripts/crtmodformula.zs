@@ -35,3 +35,10 @@
 //修改彩虹苹果合成配方
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("rainbow_apple",<item:natureminerals:enchanted_thounite_apple>,<fluid:elementalenhancement:molten_rainbow> * 144,
 <item:elementalenhancement:rainbow_apple>,800,true,false);
+//修改冰与火三钢合成配方
+mods.iceandfire.DragonForge.addRecipe("fire",<item:iceandfire:dragonsteel_fire_ingot>,<item:kubejs:dragonsteel_billet>,<item:iceandfire:fire_dragon_heart>);
+mods.iceandfire.DragonForge.addRecipe("ice",<item:iceandfire:dragonsteel_ice_ingot>,<item:kubejs:dragonsteel_billet>,<item:iceandfire:ice_dragon_heart>);
+mods.iceandfire.DragonForge.addRecipe("lightning",<item:iceandfire:dragonsteel_lightning_ingot>,<item:kubejs:dragonsteel_billet>,<item:iceandfire:lightning_dragon_heart>);
+
+
+

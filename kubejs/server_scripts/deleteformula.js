@@ -21,4 +21,4 @@ onEvent('recipes', event => {
    event.remove({output:'levelhearts:heart_container',input:'minecraft:enchanted_golden_apple'})//删除心之碎片合成心之容器合成配方
    event.remove({output:'levelhearts:heart_piece'})//删除心之碎片合成配方
    event.remove({output:'elementalenhancement:rainbow_apple'})//删除彩虹苹果合成配方
-    })
+})
