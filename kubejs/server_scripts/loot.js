@@ -44,4 +44,7 @@ onEvent("lootjs", (event) => {
     event//删除食人妖大斧掉落
         .addEntityLootModifier("iceandfire:troll")
         .thenRemove('iceandfire:troll_weapon_axe')
+    event//删除铁傀儡掉落铁锭
+        .addEntityLootModifier("minecraft:iron_golem")
+        .thenRemove('minecraft:iron_ingot')
 });

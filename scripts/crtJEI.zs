@@ -136,3 +136,6 @@ JEI.hideIngredient(<item:iceandfire:troll_weapon_axe>);
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);
 mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>,["\u901a\u8fc7\u624b\u6301\u71e7\u77f3\u53f3\u51fb\u77f3\u5934\u6216\u5706\u77f3\u83b7\u53d6"]);
+mods.jei.JEI.addInfo(<item:kubejs:soul_of_dragon_fire>,["\u4f7f\u7528\u9f99\u9b42\u7f50\u53f3\u51fb\u706b\u9f99\u5c38\u4f53\u6982\u7387\u83b7\u5f97"]);
+mods.jei.JEI.addInfo(<item:kubejs:soul_of_dragon_ice>,["\u4f7f\u7528\u9f99\u9b42\u7f50\u53f3\u51fb\u51b0\u9f99\u5c38\u4f53\u6982\u7387\u83b7\u5f97"]);
+mods.jei.JEI.addInfo(<item:kubejs:soul_of_dragon_lightning>,["\u4f7f\u7528\u9f99\u9b42\u7f50\u53f3\u51fb\u7535\u9f99\u5c38\u4f53\u6982\u7387\u83b7\u5f97"]);
