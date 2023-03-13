@@ -1,0 +1,18 @@
+{
+	id: "74A5B8B3BC3C77BF"
+	order_index: 0
+	title: "食物"
+	loot_size: 1
+	rewards: [
+		{ item: "pineapple_delight:pineapple_fried_rice", count: 3 }
+		{ item: "abnormals_delight:escargot", count: 8 }
+		{ item: "corn_delight:creamed_corn", count: 3 }
+		{ item: "culturaldelights:mutton_sandwich", count: 3 }
+		{ item: "terraincognita:sour_berry_pie", count: 8 }
+		{ item: "farmersdelight:fruit_salad", count: 5 }
+		{ item: "byg:green_apple_pie", count: 10 }
+		{ item: "pneumaticcraft:sourdough_bread", count: 4 }
+		{ item: "corn_delight:tortilla", count: 10 }
+		{ item: "farmersdelight:honey_cookie", count: 10 }
+	]
+}

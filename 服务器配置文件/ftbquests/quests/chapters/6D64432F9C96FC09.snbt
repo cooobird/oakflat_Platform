@@ -1,0 +1,11 @@
+{
+	id: "6D64432F9C96FC09"
+	group: ""
+	order_index: 3
+	filename: "6D64432F9C96FC09"
+	title: "终极目标"
+	icon: "kubejs:create_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

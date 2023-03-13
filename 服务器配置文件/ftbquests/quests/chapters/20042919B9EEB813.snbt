@@ -1,0 +1,11 @@
+{
+	id: "20042919B9EEB813"
+	group: "4743AB5E4580FDE6"
+	order_index: 2
+	filename: "20042919B9EEB813"
+	title: "星芒之力"
+	icon: "astralsorcery:wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

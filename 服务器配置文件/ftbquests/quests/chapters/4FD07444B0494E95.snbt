@@ -1,0 +1,11 @@
+{
+	id: "4FD07444B0494E95"
+	group: "452D23F8C3DCBEFE"
+	order_index: 0
+	filename: "4FD07444B0494E95"
+	title: "庞然大物！"
+	icon: "iceandfire:dragon_skull_fire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "5E38E04A6FA6CFE7"
+	group: "4743AB5E4580FDE6"
+	order_index: 3
+	filename: "5E38E04A6FA6CFE7"
+	title: "神秘学？那是什么？"
+	icon: "occultism:ritual_dummy/summon_djinni_clear_weather"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

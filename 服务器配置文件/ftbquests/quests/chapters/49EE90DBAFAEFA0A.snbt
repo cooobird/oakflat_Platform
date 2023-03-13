@@ -1,0 +1,20 @@
+{
+	id: "49EE90DBAFAEFA0A"
+	group: "452D23F8C3DCBEFE"
+	order_index: 2
+	filename: "49EE90DBAFAEFA0A"
+	title: "地狱亦或是\"地狱\""
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -22.5d
+		y: -0.5d
+		id: "2B0A0AE6C8D44F5D"
+		tasks: [{
+			id: "528F4167BB9E8444"
+			type: "dimension"
+			dimension: "minecraft:the_nether"
+		}]
+	}]
+}

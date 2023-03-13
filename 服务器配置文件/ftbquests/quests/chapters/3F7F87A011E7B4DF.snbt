@@ -1,0 +1,207 @@
+{
+	id: "3F7F87A011E7B4DF"
+	group: ""
+	order_index: 0
+	filename: "3F7F87A011E7B4DF"
+	title: "万物之始"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.0d
+			y: 0.0d
+			id: "45EA32062312D890"
+			tasks: [{
+				id: "76AAE237BD610AD6"
+				type: "checkmark"
+				title: "准备好开始你的旅程了吗"
+			}]
+			rewards: [
+				{
+					id: "25C7F1C976234AB8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29BF599B9D7D0BBA"
+					type: "item"
+					item: "akashictome:tome"
+				}
+			]
+		}
+		{
+			title: "我怎么撸不了树了"
+			x: -13.0d
+			y: 1.5d
+			dependencies: ["45EA32062312D890"]
+			id: "3C9A0137A29C0E46"
+			tasks: [
+				{
+					id: "69733F50D739C94C"
+					type: "item"
+					item: "minecraft:flint"
+					count: 4L
+				}
+				{
+					id: "5AEF7BE985F42029"
+					type: "item"
+					item: "notreepunching:flint_shard"
+					count: 8L
+				}
+				{
+					id: "23DC6C66AE9D39EB"
+					type: "item"
+					item: "minecraft:stick"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "08EFD8FB638ADA16"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "377F98379DB23BAE"
+					type: "random"
+					table_id: 8405327361653635007L
+				}
+			]
+		}
+		{
+			title: "燧石刀捏"
+			x: -11.5d
+			y: 1.5d
+			dependencies: ["3C9A0137A29C0E46"]
+			id: "34AC536B7707C38F"
+			tasks: [{
+				id: "540ECA7FFAC3EAE4"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "005008D3D571781F"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "小纤维来咯！"
+			x: -10.0d
+			y: 1.5d
+			dependencies: ["34AC536B7707C38F"]
+			id: "67BD0A2FE96009E1"
+			tasks: [
+				{
+					id: "2110DABB49D0B4C9"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+					count: 6L
+				}
+				{
+					id: "6ECAA4634E03900C"
+					type: "item"
+					item: "notreepunching:plant_string"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "51F78295DD50580B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "噢！我的神斧"
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["67BD0A2FE96009E1"]
+			id: "4699BEC5504C32CA"
+			tasks: [{
+				id: "70A0A8D287B603A5"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "58F050E260152F06"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			title: "终于拿到原木和木板了"
+			x: -8.5d
+			y: 0.0d
+			dependencies: [
+				"45EA32062312D890"
+				"4699BEC5504C32CA"
+			]
+			id: "6B4FFBA029F4D87A"
+			tasks: [
+				{
+					id: "7F7D978EECC989C8"
+					type: "item"
+					title: "任意原木"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "1BF505426983A89A"
+					type: "item"
+					title: "任意木板"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "70F194C1C7650030"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "2727758884D08515"
+					type: "random"
+					table_id: 8405327361653635007L
+				}
+			]
+		}
+		{
+			title: "工匠之始"
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["6B4FFBA029F4D87A"]
+			id: "750EAF2E5565E105"
+			tasks: [{
+				id: "69BC10762E94587D"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16L
+			}]
+		}
+	]
+}

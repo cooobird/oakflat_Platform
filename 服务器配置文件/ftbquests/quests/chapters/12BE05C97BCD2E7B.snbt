@@ -1,0 +1,64 @@
+{
+	id: "12BE05C97BCD2E7B"
+	group: ""
+	order_index: 2
+	filename: "12BE05C97BCD2E7B"
+	title: "这乐事多是一件美事"
+	icon: {
+		id: "tconstruct:mattock"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:secondary_mining": 0.65f
+				"tconstruct:mining_speed": 1.1f
+				"tconstruct:attack_damage": 1.1f
+				"tconstruct:durability": 1.25f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 0.9f
+				"tconstruct:secondary_mining": 0.65f
+				"tconstruct:attack_damage": 2.3375f
+				"tconstruct:harvest_level": 2.0f
+				"tconstruct:durability": 608.75f
+				"tconstruct:mining_speed": 3.7400002f
+			}
+			tic_broken: 0b
+			HideFlags: 3
+			tic_modifiers: [
+				{
+					name: "tconstruct:overslime"
+					level: 3s
+				}
+				{
+					name: "tconstruct:knockback"
+					level: 1s
+				}
+				{
+					name: "tconstruct:overgrowth"
+					level: 3s
+				}
+				{
+					name: "tconstruct:shovel_transform_hidden"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:slimewood"
+				"tconstruct:slimewood"
+				"tconstruct:slimewood"
+			]
+			Damage: 0
+			tic_volatile_data: {
+				"tconstruct:overslime_cap": 62
+				"tconstruct:overslime_friend": 1b
+			}
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 3
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

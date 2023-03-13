@@ -1,0 +1,99 @@
+{
+	id: "3A52AAD2382E7AE8"
+	group: ""
+	order_index: 1
+	filename: "3A52AAD2382E7AE8"
+	title: "“工匠精神”"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "老伙计又来了"
+			x: -19.5d
+			y: 0.0d
+			dependencies: ["750EAF2E5565E105"]
+			hide: true
+			id: "3A9C33556D5B2DAB"
+			tasks: [
+				{
+					id: "5B4FEB449B4F72E5"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_wood"
+						}
+					}
+				}
+				{
+					id: "20D3079938A5CB22"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "7EFD1F6BA025AFF9"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "73560C6C7C92306D"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 0.0d
+			dependencies: ["3A9C33556D5B2DAB"]
+			id: "3DD227C5208BFA96"
+			tasks: [
+				{
+					id: "52D6271ABE63ED09"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 32L
+				}
+				{
+					id: "2B76555B25D07C47"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "你的第一个熔炼炉"
+			x: -16.5d
+			y: 0.0d
+			dependencies: ["3DD227C5208BFA96"]
+			id: "7173ED0B8FA6728F"
+			tasks: [
+				{
+					id: "3C66E9E808208F26"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "7447F014358515E4"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+			]
+		}
+	]
+}

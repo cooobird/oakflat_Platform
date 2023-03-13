@@ -1,0 +1,11 @@
+{
+	id: "174C44C2A6411E58"
+	group: "452D23F8C3DCBEFE"
+	order_index: 1
+	filename: "174C44C2A6411E58"
+	title: "沙之界"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

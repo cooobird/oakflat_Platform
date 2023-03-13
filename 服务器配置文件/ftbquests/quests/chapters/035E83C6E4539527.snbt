@@ -1,0 +1,21 @@
+{
+	id: "035E83C6E4539527"
+	group: "452D23F8C3DCBEFE"
+	order_index: 3
+	filename: "035E83C6E4539527"
+	title: "精灵国度"
+	icon: "mythicbotany:alfheim_rune"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -12.0d
+		y: -0.5d
+		dependencies: ["47C8D7A8BE69AC4B"]
+		id: "24814F5CF42D341A"
+		tasks: [{
+			id: "0575D757EDA634DE"
+			type: "dimension"
+			dimension: "mythicbotany:alfheim"
+		}]
+	}]
+}

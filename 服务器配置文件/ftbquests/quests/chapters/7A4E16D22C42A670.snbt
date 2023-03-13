@@ -1,0 +1,29 @@
+{
+	id: "7A4E16D22C42A670"
+	group: "4743AB5E4580FDE6"
+	order_index: 0
+	filename: "7A4E16D22C42A670"
+	title: "魔法还是“科技“"
+	icon: {
+		id: "botania:twig_wand"
+		Count: 1b
+		tag: {
+			color1: 0
+			color2: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "精灵界之匙"
+		x: 11.5d
+		y: -0.5d
+		id: "47C8D7A8BE69AC4B"
+		tasks: [{
+			id: "38CCFE4DFE9B4D09"
+			type: "item"
+			item: "mythicbotany:kvasir_mead"
+			only_from_crafting: true
+		}]
+	}]
+}

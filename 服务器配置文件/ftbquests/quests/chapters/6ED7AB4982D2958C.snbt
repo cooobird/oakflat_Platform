@@ -1,0 +1,152 @@
+{
+	id: "6ED7AB4982D2958C"
+	group: "452D23F8C3DCBEFE"
+	order_index: 4
+	filename: "6ED7AB4982D2958C"
+	title: "末地还是“美地“"
+	icon: "betterendforge:eternal_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "全知之眼"
+		x: -7.5d
+		y: 0.0d
+		description: ["它们将会带你前往终末之地"]
+		dependencies: ["2B0A0AE6C8D44F5D"]
+		id: "483CD4AD0820A4A5"
+		tasks: [
+			{
+				id: "6552470983B1E30A"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "2FA037A2A2FC2F7E"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "0F171EC47CDF08A6"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "3492359D527BEBCC"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "3F33BEDEECB83222"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "6B537DE9B47FA6AE"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "51483A6B8331FAAB"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "13BD0367310E03B0"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "0E27448B3FBADEB8"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "7A88149C3B7D9752"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "367C379CFE1EF88A"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+			{
+				id: "0D65F945CB401D2B"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}
+		]
+	}]
+}
