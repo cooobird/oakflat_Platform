@@ -1,0 +1,45 @@
+{
+    "slimeknights.tconstruct.tables.client.inventory.table.CraftingStationScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.table.TinkerStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 50
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 50
+            }
+        }
+    },
+    "slimeknights.tconstruct.tables.client.inventory.table.PartBuilderScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.CraftingStationScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.TinkerStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            }
+        }
+    },
+    "slimeknights.tconstruct.tables.client.inventory.PartBuilderScreen": {
+        "playerSideOnly": true
+    }
+}
