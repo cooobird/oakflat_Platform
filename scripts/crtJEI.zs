@@ -133,6 +133,7 @@ JEI.hideIngredient(<item:cataclysm:gauntlet_of_guard>);
 JEI.hideIngredient(<item:iceandfire:hippogryph_talon>);
 JEI.hideIngredient(<item:iceandfire:troll_weapon_axe>);
 
+
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);
 mods.jei.JEI.addInfo(<item:notreepunching:flint_shard>,["\u901a\u8fc7\u624b\u6301\u71e7\u77f3\u53f3\u51fb\u77f3\u5934\u6216\u5706\u77f3\u83b7\u53d6"]);
