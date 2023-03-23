@@ -1,4 +1,4 @@
-14 possible world types found:terraforged.terraforged
+14 possible world types found:
 - default
 - flat
 - large_biomes
