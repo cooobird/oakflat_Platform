@@ -9,5 +9,6 @@ onEvent('item.registry',event => {
 	event.create('soul_of_dragon_ice').displayName('龙霜之魂').maxStackSize(1);
 	event.create('soul_of_dragon_lightning').displayName('龙霆之魂').maxStackSize(1);
 	event.create('dragon_soul_pot').displayName('龙魂罐').maxStackSize(1);
+	event.create('night_lights').displayName('夜之灯').maxStackSize(1);
 })
  

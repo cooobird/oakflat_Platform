@@ -2,7 +2,11 @@ import crafttweaker.api.loot.conditions.vanilla.LootTableId;
 import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
 import crafttweaker.api.villagers.VillagerTrades;
-import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.loot.conditions.vanilla.DamageSourceProperties;
+import crafttweaker.api.loot.conditions.vanilla.KilledByPlayer;
+import crafttweaker.api.loot.conditions.vanilla.WeatherCheck;
+import crafttweaker.api.loot.modifiers.CommonLootModifiers;
+
 
 loot.modifiers.register(
     "remove_resources_from_chests",
@@ -42,6 +46,11 @@ villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:fletcher>, 2, <
 villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletcher>, 4, <item:minecraft:bow>);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:fletcher>, 3, <item:minecraft:crossbow>);
 villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletcher>, 5, <item:minecraft:crossbow>);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,5);
 
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_sword");
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_pickaxe");
@@ -55,3 +64,4 @@ villagerTrades.removeEnchantedItemForEmeraldsTrade(<profession:minecraft:fletche
 mods.iceandfire.DragonForge.removeRecipe("fire",<item:iceandfire:dragonsteel_fire_ingot>);
 mods.iceandfire.DragonForge.removeRecipe("ice",<item:iceandfire:dragonsteel_ice_ingot>);
 mods.iceandfire.DragonForge.removeRecipe("lightning",<item:iceandfire:dragonsteel_lightning_ingot>);
+

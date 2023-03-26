@@ -41,9 +41,27 @@ onEvent("lootjs", (event) => {
     event//删除骏鹰利爪掉落
         .addEntityLootModifier("iceandfire:hippogryph")
         .thenRemove('iceandfire:hippogryph_talon')
-    event//删除食人妖大斧掉落
+    event//删除食人妖武器掉落
         .addEntityLootModifier("iceandfire:troll")
         .thenRemove('iceandfire:troll_weapon_axe')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_column')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_column_forest')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_column_frost')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_hammer')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_trunk')
+    event
+        .addEntityLootModifier("iceandfire:troll")
+        .thenRemove('iceandfire:troll_weapon_trunk_frost')
     event//删除铁傀儡掉落铁锭
         .addEntityLootModifier("minecraft:iron_golem")
         .thenRemove('minecraft:iron_ingot')
