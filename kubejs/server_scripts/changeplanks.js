@@ -383,4 +383,12 @@ event.shapeless('2x tconstruct:bloodshroom_planks',['notreepunching:iron_saw','t
 event.shapeless('2x tconstruct:bloodshroom_planks',['notreepunching:iron_saw','tconstruct:stripped_bloodshroom_log'])
 event.recipes.createCutting(['4x tconstruct:bloodshroom_planks'],['tconstruct:bloodshroom_log'])
 event.recipes.createCutting(['4x tconstruct:bloodshroom_planks'],['tconstruct:stripped_bloodshroom_log'])
+
+event.shaped('1x cataclysm:chorus_planks',[
+    'cc ',
+    'cc ',
+    '   '
+],{
+    c:'minecraft:chorus_fruit'
+})
 })
