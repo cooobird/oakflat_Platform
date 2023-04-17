@@ -1,0 +1,16 @@
+//玩家使用重型武器时获得缓慢效果
+onEvent("player.tick",event=>{
+    if(event.player.mainHandItem==('tconstruct:cleaver')){
+        event.player.potionEffects.add("minecraft:slowness",1,2,false,false);
+    }
+})
+onEvent("player.tick",event=>{
+    if(event.player.mainHandItem==('tconstruct:scythe')){
+        event.player.potionEffects.add("minecraft:slowness",1,2,false,false);
+    }
+})
+onEvent("player.tick",event=>{
+    if(event.player.mainHandItem==('tconstruct:broad_axe')){
+        event.player.potionEffects.add("minecraft:slowness",1,2,false,false);
+    }
+})

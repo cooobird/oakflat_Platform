@@ -81,6 +81,14 @@ onEvent('recipes', event => {
 //添加龙霆钢钢柸合成配方(半成品)
     event.recipes.createMixing(['kubejs:incomplete_dragonsteel_lightning_billet'],['steampowered:steel_ingot','iceandfire:lightning_dragon_blood']).superheated()
     event.recipes.createPressing(['kubejs:dragonsteel_lightning_billet'],['kubejs:incomplete_dragonsteel_lightning_billet'])
+//添加龙魂罐合成配方
+    event.shaped('1x kubejs:dragon_soul_pot',[
+        ' m ',
+        'g g',
+        'ggg'
+    ],{
+        m:'#minecraft:slabs',g:'#forge:glass'
+    })
 })
 
 
