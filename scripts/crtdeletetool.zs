@@ -1,12 +1,6 @@
-import crafttweaker.api.loot.conditions.vanilla.LootTableId;
+import crafttweaker.api.villagers.VillagerTrades;
 import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.modifiers.CommonLootModifiers;
-import crafttweaker.api.villagers.VillagerTrades;
-import crafttweaker.api.loot.conditions.vanilla.DamageSourceProperties;
-import crafttweaker.api.loot.conditions.vanilla.KilledByPlayer;
-import crafttweaker.api.loot.conditions.vanilla.WeatherCheck;
-import crafttweaker.api.loot.modifiers.CommonLootModifiers;
-
 
 loot.modifiers.register(
     "remove_resources_from_chests",
