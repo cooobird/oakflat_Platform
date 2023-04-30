@@ -166,6 +166,19 @@ JEI.hideIngredient(<item:immersiveengineering:potion>);
 JEI.hideIngredient(<item:immersiveengineering:dragons_breath>);
 JEI.hideIngredient(<item:immersiveengineering:blueprint>.withTag({blueprint: "specialBullet" as string}));
 JEI.hideIngredient(<item:immersiveengineering:toolupgrade_revolver_magazine>);
+JEI.hideIngredient(<item:extrabotany:influxwaver>);
+JEI.hideIngredient(<item:extrabotany:shadowkatana>);
+JEI.hideIngredient(<item:extrabotany:trueterrablade>);
+JEI.hideIngredient(<item:extrabotany:trueshadowkatana>);
+JEI.hideIngredient(<item:wstweaks:lava_blade>);
+JEI.hideIngredient(<item:wstweaks:blaze_blade>);
+JEI.hideIngredient(<item:elementalenhancement:frost_blade>);
+JEI.hideIngredient(<item:elementalenhancement:agni_blade>);
+JEI.hideIngredient(<item:meetyourfight:cocktail_cutlass>);
+JEI.hideIngredient(<item:iceandfire:amphithere_macuahuitl>);
+JEI.hideIngredient(<item:meetyourfight:depth_star>);
+JEI.hideIngredient(<item:occultism:butcher_knife>);
+JEI.hideIngredient(<item:immersiveengineering:toolupgrade_revolver_bayonet>);
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);
