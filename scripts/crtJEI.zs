@@ -12,6 +12,7 @@ mods.jei.JEI.hideRegex(".*paxel");
 mods.jei.JEI.hideRegex(".*saber");
 mods.jei.JEI.hideRegex(".*ammo.*");
 mods.jei.JEI.hideRegex(".*aurinium.*");
+mods.jei.JEI.hideRegex(".*arrow.*");
 JEI.hideIngredient(<item:endlessocean:jetski>);
 JEI.hideIngredient(<item:create_stuff_additions:blazing_cleaver>);
 JEI.hideIngredient(<item:extrabotany:excaliber>);

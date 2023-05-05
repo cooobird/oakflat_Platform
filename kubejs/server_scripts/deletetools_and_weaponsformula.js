@@ -81,4 +81,5 @@ onEvent('recipes', event => {
     event.remove({output:'iceandfire:amphithere_macuahuitl'})
     event.remove({output:'immersiveengineering:toolupgrade_revolver_bayonet'})
     event.remove({output:'meetyourfight:cocktail_cutlass'})
+    event.remove({output:/.*arrow/})
 })
