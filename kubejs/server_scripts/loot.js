@@ -65,4 +65,10 @@ onEvent("lootjs", (event) => {
     event//删除铁傀儡掉落铁锭
         .addEntityLootModifier("minecraft:iron_golem")
         .thenRemove('minecraft:iron_ingot')
+    event//删除两种箭的掉落
+        .addEntityLootModifier("betterdefaultbiomes:desert_bandit_archer")
+        .thenRemove('betterdefaultbiomes:bandit_arrow')
+    event
+        .addEntityLootModifier("betterdefaultbiomes:hunter")
+        .thenRemove('betterdefaultbiomes:hunter_arrow')
 });
