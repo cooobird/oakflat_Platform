@@ -89,6 +89,21 @@ onEvent('recipes', event => {
     ],{
         m:'#minecraft:slabs',g:'#forge:glass'
     })
+//修改鳕鱼块及鲑鱼块合成配方
+    event.shaped('1x architects_palette:salmon_log',[
+        'ss ',
+        'ss ',
+        '   '
+    ],{
+        s:'minecraft:salmon'
+    })
+    event.shaped('1x architects_palette:cod_log',[
+        'cc ',
+        'cc ',
+        '   '
+    ],{
+        c:'minecraft:cod'
+    })
 })
 
 
