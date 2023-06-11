@@ -1,6 +1,6 @@
 {
 	// Bypass damage receive throttling of LivingEntity from player attacks.
-	"allow_fast_attacks": true,
+	"allow_fast_attacks": false,
 	// Allows client-side target search and server-side attack request execution against currently mounted entity of the player
 	"allow_attacking_mount": false,
 	// Allows vanilla sweeping mechanic (and Sweeping Edge enchant) to work
