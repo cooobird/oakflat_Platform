@@ -3,7 +3,7 @@
     "oldRotation": false,
     "vanillaRendering": false,
     "rotateSpeed": 1.0,
-    "showPickupTooltip": true,
+    "showPickupTooltip": false,
     "disableThrowHUD": true
   }
 }

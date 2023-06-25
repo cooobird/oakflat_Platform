@@ -1,1 +1,1 @@
--XX:+ExplicitGCInvokesConcurrent -XX:+UseCompressedOops
+-Xms12288M -Xmx12288M -XX:+UseStringDeduplication -XX:+ExplicitZGCInvokesConcurrent

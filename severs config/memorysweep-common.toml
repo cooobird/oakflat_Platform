@@ -5,7 +5,7 @@
 	"automatic memory cleaner test" = true
 	#Clean memory when players join the world.
 	#Only the first player is valid.
-	"player join world sweep" = true
+	"player join world sweep" = false
 	#Control command send text.
 	"command test" = true
 	#Time between memory cleanups based on memory usage.
