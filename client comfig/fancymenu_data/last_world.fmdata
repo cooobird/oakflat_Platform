@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/lqx18/Desktop/服务器/oakflat mod服/模组一服/oakflat Platform模组一服制作端/.minecraft/versions/oakflat Platform模组一服客户端/saves/制作捏
-}
-

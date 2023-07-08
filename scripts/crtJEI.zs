@@ -180,6 +180,15 @@ JEI.hideIngredient(<item:iceandfire:amphithere_macuahuitl>);
 JEI.hideIngredient(<item:meetyourfight:depth_star>);
 JEI.hideIngredient(<item:occultism:butcher_knife>);
 JEI.hideIngredient(<item:immersiveengineering:toolupgrade_revolver_bayonet>);
+JEI.hideIngredient(<item:bettercompat:manasteel_bucket>);
+JEI.hideIngredient(<item:bettercompat:cincinnasite_bucket>);
+JEI.hideIngredient(<item:bettercompat:alfsteel_bucket>);
+JEI.hideIngredient(<item:bettercompat:blackopal_bucket>);
+JEI.hideIngredient(<item:bettercompat:crystallized_obsidian_bucket>);
+JEI.hideIngredient(<item:bettercompat:elementium_bucket>);
+JEI.hideIngredient(<item:bettercompat:enderium_bucket>);
+JEI.hideIngredient(<item:bettercompat:endorium_bucket>);
+JEI.hideIngredient(<item:bettercompat:terrasteel_bucket>);
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);

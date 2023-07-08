@@ -1,0 +1,9 @@
+{
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "name": "elementalenhancement:molten_heavy_water",
+        "amount": 144
+    },
+    "temperature": 625,
+    "output": "tconstruct:heavy_water"
+}

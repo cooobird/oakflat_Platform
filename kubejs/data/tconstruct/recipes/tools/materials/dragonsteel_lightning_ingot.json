@@ -1,9 +1,0 @@
-{
-    "type": "tconstruct:material_fluid",
-    "fluid": {
-      "name": "kubejs:molten_dragonsteel_lightning",
-      "amount": 144
-    },
-    "temperature": 1200,
-    "output": "tconstruct:dragonsteel_lightning_ingot"
-  }

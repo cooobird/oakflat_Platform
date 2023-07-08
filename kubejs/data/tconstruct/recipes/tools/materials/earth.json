@@ -1,0 +1,9 @@
+{
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "name": "elementalenhancement:molten_earth",
+        "amount": 144
+    },
+    "temperature": 625,
+    "output": "tconstruct:earth"
+}

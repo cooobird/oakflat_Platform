@@ -1,5 +1,9 @@
 {
-    "material.tconstruct.dragonsteel_fire_ingot":"龙炎钢",
-    "material.tconstruct.dragonsteel_ice_ingot":"龙霜钢",
-    "material.tconstruct.dragonsteel_lightning_ingot":"龙霆钢"
+    "material.tconstruct.agni":"烈火",
+    "material.tconstruct.earth":"大地",
+    "material.tconstruct.frost":"冰霜",
+    "material.tconstruct.gale_forse":"烈风",
+    "material.tconstruct.heavy_water":"重水",
+    "material.tconstruct.nature":"自然",
+    "material.tconstruct.rainbow":"彩虹"
 }
