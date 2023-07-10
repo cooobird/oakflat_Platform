@@ -16,7 +16,7 @@
 		"Zoom Transition Mode (TOGGLE, HOLD, PERSISTENT)" = "HOLD"
 		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "SMOOTH"
 		"Lower Zoom Sensitivity" = true
-		"Enable Zoom Overlay" = true
+		"Enable Zoom Overlay" = false
 
 	[Settings."Entity Distance"]
 		"Enable Max Distance Checks" = true
