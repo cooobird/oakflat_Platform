@@ -25,3 +25,9 @@ onEvent("player.tick",event=>{
         event.player.potionEffects.add("minecraft:speed",1,1,false,false);
     }
 })
+//进入服务器自强制启用飞轮的优化
+onEvent("player.tick",event=>{
+    if(event.player.logged_in){
+        event.server.runCommandSilent('flywheel backend off')
+    }
+})
