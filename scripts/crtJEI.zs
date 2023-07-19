@@ -189,6 +189,10 @@ JEI.hideIngredient(<item:bettercompat:elementium_bucket>);
 JEI.hideIngredient(<item:bettercompat:enderium_bucket>);
 JEI.hideIngredient(<item:bettercompat:endorium_bucket>);
 JEI.hideIngredient(<item:bettercompat:terrasteel_bucket>);
+JEI.hideIngredient(<item:twist:slugs>);
+JEI.hideIngredient(<item:twist:slugger>);
+JEI.hideIngredient(<item:twist:spear>);
+
 
 //添加物品jei描述
 mods.jei.JEI.addInfo(<item:notreepunching:flint_knife>,["\u4f7f\u7528\u71e7\u77f3\u5200\u7834\u574f\u8349\uff0c\u53ef\u83b7\u53d6\u690d\u7269\u7ea4\u7ef4"]);

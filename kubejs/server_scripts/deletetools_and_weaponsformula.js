@@ -82,4 +82,7 @@ onEvent('recipes', event => {
     event.remove({output:'immersiveengineering:toolupgrade_revolver_bayonet'})
     event.remove({output:'meetyourfight:cocktail_cutlass'})
     event.remove({output:/.*arrow/})
+    event.remove({output:'twist:slugs'})
+    event.remove({output:'twist:slugger'})
+    event.remove({output:'twist:spear'})
 })
