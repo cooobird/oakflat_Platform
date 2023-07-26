@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:fast
-resourcePacks:["vanilla","mod_resources","file/multiblocked","openloader/resources/contenttweaker","quark:emote_resources","file/Quark Programmer Art.zip","BetterDragonCollection[8].zip","BotaniaRevamped_1.1.0.zip","CreateTools+Rockit14+Edition+1.3.5+Zombies.zip","Creatory.zip","FrostbiteBrimstone.zip","IAF-DE4THR4SH-Dragonsteel-Weaponry-v2.0+[1.16.X-NOGLOW].zip","Lum.zip","Minecraft-Mod-Language-Modpack-1-16.zip","Quark Programmer Art.zip","醉梦巅峰MASA汉化材质.zip"]
+resourcePacks:["vanilla","mod_resources","file/multiblocked","openloader/resources/contenttweaker","quark:emote_resources","file/Quark Programmer Art.zip","BetterDragonCollection[8].zip","BotaniaRevamped_1.1.0.zip","CreateTools+Rockit14+Edition+1.3.5+Zombies.zip","Creatory.zip","FrostbiteBrimstone.zip","IAF-DE4THR4SH-Dragonsteel-Weaponry-v2.0+[1.16.X-NOGLOW].zip","Lum.zip","Quark Programmer Art.zip","Minecraft-Mod-Language-Modpack-1-16.zip"]
 incompatibleResourcePacks:["quark:emote_resources","BetterDragonCollection[8].zip"]
 lastServer:
 lang:zh_cn
@@ -101,6 +101,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.create_stuff_additions.flying:key.keyboard.space
+key_key.betterfps.f:key.keyboard.unknown
 key_key.extrabotany_mount_summon:key.keyboard.r
 key_key.extrabotany_ufo_catch:key.keyboard.r
 key_key.extrabotany_buddhist_shift:key.keyboard.left.control
@@ -135,15 +136,15 @@ key_key.immersivepetroleum.projector.flip:key.keyboard.m
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
-key_key.botania_corporea_request:key.keyboard.unknown
 key_key.endlessocean.increase_speed:key.keyboard.keypad.add
 key_key.endlessocean.decrease_speed:key.keyboard.keypad.subtract
 key_key.endlessocean.power_key:key.keyboard.keypad.multiply
-key_key.pickup.item:key.keyboard.unknown
+key_key.botania_corporea_request:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.curios.open.desc:key.keyboard.g
+key_key.pickup.item:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.toggle_tank:key.keyboard.n
 key_key.travelersbackpack.cycle_tool:key.keyboard.z
@@ -163,6 +164,7 @@ key_Camera up:key.keyboard.unknown
 key_Camera down:key.keyboard.unknown
 key_Swap shoulder:key.keyboard.unknown
 key_Toggle perspective:key.keyboard.unknown
+key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_key.buildinggadgets.settings_menu:key.keyboard.g:CONTROL
@@ -175,24 +177,34 @@ key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
 key_key.buildinggadgets.material_list:key.keyboard.m
 key_fpsreducer.key.openGui:key.keyboard.unknown
 key_fpsreducer.key.forceIdle:key.keyboard.unknown
-key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
-key_key.ftbquests.quests:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.toggle_focus.desc:key.keyboard.tab
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.openManual:key.keyboard.f1
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_key.tconstruct.helmet_interact:key.keyboard.z
-key_key.tconstruct.leggings_interact:key.keyboard.i
-key_key.diet.open.desc:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.autorun:key.keyboard.unknown
+key_key.diet.open.desc:key.keyboard.unknown
+key_key.tconstruct.helmet_interact:key.keyboard.z
+key_key.tconstruct.leggings_interact:key.keyboard.i
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.o
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -211,19 +223,8 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_key.inventoryhud.toggle:key.keyboard.unknown
-key_key.inventoryhud.openconfig:key.keyboard.o
-key_key.inventoryhud.togglepot:key.keyboard.unknown
-key_key.inventoryhud.togglearm:key.keyboard.unknown
-key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.back:key.mouse.4
 key_pneumaticcraft.armor.upgrade.core_components:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker.module.hackables:key.keyboard.unknown
