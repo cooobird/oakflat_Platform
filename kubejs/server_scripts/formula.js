@@ -64,14 +64,6 @@ onEvent('recipes', event => {
     ],{
         s:'tconstruct:seared_brick',f:'minecraft:furnace'
     })
-//修改心之碎片合成配方
-    event.shaped('levelhearts:heart_piece',[
-        'kkk',
-        'grg',
-        'kkk'
-    ],{
-        k:'natureminerals:kunzite_ingot',g:'minecraft:enchanted_golden_apple',r:'elementalenhancement:rainbow_apple'
-    })
 //添加龙炎钢钢柸合成配方(半成品)
     event.recipes.createMixing(['kubejs:incomplete_dragonsteel_fire_billet'],['steampowered:steel_ingot','iceandfire:fire_dragon_blood']).superheated()
     event.recipes.createPressing(['kubejs:dragonsteel_fire_billet'],['kubejs:incomplete_dragonsteel_fire_billet'])
@@ -104,17 +96,6 @@ onEvent('recipes', event => {
     ],{
         c:'minecraft:cod'
     })
-    //统一矿词
-    event.replaceInput({},'#forge:ingots/copper','emendatusenigmatica:copper_ingot')
-    event.replaceOutput({},'#forge:ingots/copper','emendatusenigmatica:copper_ingot')
-    event.replaceInput({},'#forge:nuggets/copper','emendatusenigmatica:copper_nugget')
-    event.replaceOutput({},'#forge:nuggets/copper','emendatusenigmatica:copper_nugget')
-    event.replaceInput({},'#forge:plates/copper','emendatusenigmatica:copper_plate')
-    event.replaceOutput({},'#forge:plates/copper','emendatusenigmatica:copper_plate')
-    event.replaceInput({},'#forge:storage_blocks/copper','emendatusenigmatica:copper_block')
-    event.replaceOutput({},'#forge:storage_blocks/copper','emendatusenigmatica:copper_block')
-    event.replaceInput({},'#forge:dusts/copper','emendatusenigmatica:copper_dust')
-    event.replaceOutput({},'#forge:dusts/copper','emendatusenigmatica:copper_dust')
 })  
 
 
