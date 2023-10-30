@@ -32,3 +32,7 @@ onEvent("player.tick",event=>{
     }
 })
 //三魂获取
+
+
+
+
