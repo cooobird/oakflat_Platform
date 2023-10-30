@@ -1,6 +1,6 @@
 {
   "general": {
-    "displayTooltip": true,
+    "displayTooltip": false,
     "shiftForDetails": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
