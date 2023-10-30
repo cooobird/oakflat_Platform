@@ -71,5 +71,12 @@
         "audio_replace_failed_notification": {
             "value": false
         }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "HOME"
+            }
+        }
     }
 }
