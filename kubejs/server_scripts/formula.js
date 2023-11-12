@@ -48,14 +48,6 @@ onEvent('recipes', event => {
     ],{
         n:'atum:nebu_ingot',s:'minecraft:stick'
     })
-//燧石斧合成配方
-    event.shaped('notreepunching:flint_axe',[
-        'fp ',
-        ' s ',
-        '   '
-    ],{
-        f:'notreepunching:flint_shard',p:'notreepunching:plant_string',s:'minecraft:stick'
-    })
 //焦黑加热器合成配方
     event.shaped('tconstruct:seared_heater',[
         'sss',
