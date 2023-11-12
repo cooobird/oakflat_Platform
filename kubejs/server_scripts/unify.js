@@ -16,13 +16,13 @@ global["RECIPE_DEDUPE"] = true
 
 // Mod priorities
 global["unifypriorities"] = [
-    "create",
     "tconstruct",
+    "minecraft",
+    "create",
     "occultism",
     "mekanism",
     "futurepack",
     "tinkers_reforged",
-    "minecraft",
     "iceandfire",
     "immersiveengineering"
 ]
