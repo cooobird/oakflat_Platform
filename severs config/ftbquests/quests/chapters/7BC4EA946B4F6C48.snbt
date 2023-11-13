@@ -1,0 +1,15 @@
+{
+	id: "7BC4EA946B4F6C48"
+	group: "656231E183CDA2C5"
+	order_index: 0
+	filename: "7BC4EA946B4F6C48"
+	title: "太美丽了宇宙"
+	icon: {
+		id: "boss_tools:rocket_t3"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

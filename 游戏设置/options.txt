@@ -105,11 +105,11 @@ key_key.extrabotany_mount_summon:key.keyboard.r
 key_key.extrabotany_ufo_catch:key.keyboard.r
 key_key.extrabotany_buddhist_shift:key.keyboard.left.control
 key_key.betterfps.f:key.keyboard.unknown
+key_key.ftbultimine:key.keyboard.grave.accent
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.dragon_down:key.keyboard.x
 key_key.dragon_change_view:key.keyboard.f7
-key_key.ftbultimine:key.keyboard.grave.accent
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
@@ -127,9 +127,9 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
-key_key.ftbchunks.map:key.keyboard.m
-key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
-key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
+key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown
+key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.immersivepetroleum.projector.flip:key.keyboard.m
@@ -151,6 +151,12 @@ key_key.travelersbackpack.toggle_tank:key.keyboard.n
 key_key.travelersbackpack.cycle_tool:key.keyboard.z
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.unknown
 key_sndctrl.text.soundconfig.open:key.keyboard.unknown
+key_pneumaticcraft.armor.options:key.keyboard.u
+key_pneumaticcraft.helmet.hack:key.keyboard.h
+key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
+key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
+key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown:CONTROL
+key_pneumaticcraft.boots.jet_boots:key.keyboard.space
 key_Camera left:key.keyboard.unknown
 key_Camera right:key.keyboard.unknown
 key_Camera closer:key.keyboard.unknown
@@ -159,12 +165,6 @@ key_Camera up:key.keyboard.unknown
 key_Camera down:key.keyboard.unknown
 key_Swap shoulder:key.keyboard.unknown
 key_Toggle perspective:key.keyboard.unknown
-key_pneumaticcraft.armor.options:key.keyboard.u
-key_pneumaticcraft.helmet.hack:key.keyboard.h
-key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
-key_pneumaticcraft.boots.kick:key.keyboard.x:CONTROL
-key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown:CONTROL
-key_pneumaticcraft.boots.jet_boots:key.keyboard.space
 key_key.boss_tools.rocket_start:key.keyboard.space
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
@@ -179,7 +179,6 @@ key_key.buildinggadgets.material_list:key.keyboard.m
 key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
 key_fpsreducer.key.openGui:key.keyboard.unknown
 key_fpsreducer.key.forceIdle:key.keyboard.unknown
-key_key.ftbquests.quests:key.keyboard.unknown
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -190,9 +189,10 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_key.ftbquests.quests:key.keyboard.unknown
+key_key.toggle_focus.desc:key.keyboard.tab
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
-key_key.toggle_focus.desc:key.keyboard.tab
 key_key.openManual:key.keyboard.f1
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
@@ -201,28 +201,26 @@ key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_key.diet.open.desc:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.space_breathing:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.gravity_normalizing:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.space_fire_proof:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.venus_acid_proof:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_key.diet.open.desc:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.space_breathing:key.keyboard.unknown
-key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.gravity_normalizing:key.keyboard.unknown
-key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.space_fire_proof:key.keyboard.unknown
-key_pneumaticcraft.armor.upgrade.boss_tools_giselle_addon.venus_acid_proof:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
 key_quark.keybind.lock_rotation:key.keyboard.unknown
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -241,6 +239,9 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_opotato.key.one_punch:key.keyboard.unknown
 key_keybind.bocchium.keyName:key.keyboard.unknown
 key_key.occultism.backpack:key.keyboard.b
 key_key.occultism.storage_remote:key.keyboard.n

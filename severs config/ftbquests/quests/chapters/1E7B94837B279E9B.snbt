@@ -1,0 +1,11 @@
+{
+	id: "1E7B94837B279E9B"
+	group: "2541A0318E2A855E"
+	order_index: 0
+	filename: "1E7B94837B279E9B"
+	title: "结束了？！"
+	icon: "creativemod:maxemirite_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "23703F76EFF8B933"
+	group: "452D23F8C3DCBEFE"
+	order_index: 5
+	filename: "23703F76EFF8B933"
+	title: "异界"
+	icon: "allthemodium:teleport_pad"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,17 @@
+{
+	id: "24A62652AE3C715F"
+	group: "08168FDDB346270B"
+	order_index: 0
+	filename: "24A62652AE3C715F"
+	title: "工业时代"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
