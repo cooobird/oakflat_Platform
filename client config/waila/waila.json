@@ -1,6 +1,6 @@
 {
   "general": {
-    "displayTooltip": false,
+    "displayTooltip": true,
     "shiftForDetails": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
@@ -10,8 +10,12 @@
     "maxHeartsPerLine": 10,
     "fluldMode": "ANY",
     "reachDistance": 0.0,
-    "blockBlacklist": [],
-    "entityBlacklist": [],
+    "blockBlacklist": [
+      ""
+    ],
+    "entityBlacklist": [
+      ""
+    ],
     "onlyShowSmartNodes": false,
     "gogglesRequired": false
   },

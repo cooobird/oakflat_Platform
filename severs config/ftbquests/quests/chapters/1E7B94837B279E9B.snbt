@@ -7,5 +7,162 @@
 	icon: "creativemod:maxemirite_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			hide_dependency_lines: false
+			dependencies: [
+				"24839383CFAA9BFA"
+				"53D1185D7F7FDAD2"
+				"0E60D37CBC79ECA9"
+			]
+			id: "0A1CEC8EBD99B092"
+			tasks: [{
+				id: "6AA230F9285F3FDA"
+				type: "item"
+				item: "kubejs:create_star"
+			}]
+		}
+		{
+			title: "另一个世界的产物"
+			x: 0.0d
+			y: 2.5d
+			dependencies: [
+				"032F326E35648E61"
+				"4929CF30BE50C475"
+				"24D82A91C4BB1FE8"
+				"3428E2401F9C7860"
+			]
+			id: "24839383CFAA9BFA"
+			tasks: [{
+				id: "3553AE30700E7310"
+				type: "item"
+				item: "creativemod:maxemirite_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			hide_dependency_lines: false
+			dependencies: ["0A1CEC8EBD99B092"]
+			id: "57811B7F3285ED89"
+			tasks: [{
+				id: "6DEE63F610607CC7"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "0E60D37CBC79ECA9"
+			tasks: [{
+				id: "2853339766AB753A"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "53D1185D7F7FDAD2"
+			tasks: [{
+				id: "3BA7B8A155EFB8E3"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["0A1CEC8EBD99B092"]
+			id: "069C46960BD0B04A"
+			tasks: [{
+				id: "3E69C72CF535A44D"
+				type: "item"
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0A1CEC8EBD99B092"]
+			id: "5DBE63381EF09DD5"
+			tasks: [{
+				id: "59D4A493A4888D10"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["0A1CEC8EBD99B092"]
+			id: "45C4C9BA1A0BF288"
+			tasks: [
+				{
+					id: "30EA705F40FDD095"
+					type: "item"
+					item: "storagedrawers:creative_storage_upgrade"
+				}
+				{
+					id: "7A2012AB81F0F083"
+					type: "item"
+					item: "storagedrawers:creative_vending_upgrade"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			id: "032F326E35648E61"
+			tasks: [{
+				id: "2C4BEAF0FF5568DF"
+				type: "item"
+				item: "creativemod:maxemirite_helmet"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			id: "4929CF30BE50C475"
+			tasks: [{
+				id: "05EA3F29FEAAB26E"
+				type: "item"
+				item: "creativemod:maxemirite_chestplate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			id: "24D82A91C4BB1FE8"
+			tasks: [{
+				id: "6F03331DAF833248"
+				type: "item"
+				item: "creativemod:maxemirite_leggings"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "3428E2401F9C7860"
+			tasks: [{
+				id: "2776115ECDFCB8CA"
+				type: "item"
+				item: "creativemod:maxemirite_boots"
+			}]
+		}
+	]
 }

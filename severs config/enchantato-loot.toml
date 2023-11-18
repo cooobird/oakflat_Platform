@@ -1,0 +1,6 @@
+
+[Enchantato-Loot]
+	#If you enable this, the 'DisabledEnchantments' will become 'AllowedEnchantments'
+	InvertedMode = false
+	DisabledEnchantments = ["elementalenhancement:glass_cannon","minecraft:knockback","stalwart_dungeons:thunder_strike", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:silk_touch", "minecraft:loyalty", "minecraft:fortune", "minecraft:riptide", "minecraft:impaling"]
+

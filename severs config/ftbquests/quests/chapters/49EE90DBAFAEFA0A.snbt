@@ -8,6 +8,7 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		title: "到地狱了啊 家人们"
 		x: -22.5d
 		y: -0.5d
 		id: "2B0A0AE6C8D44F5D"

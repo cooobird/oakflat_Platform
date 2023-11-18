@@ -45,7 +45,6 @@ villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,2);
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,3);
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,4);
 villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>,5);
-villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:fletcher>, 3, <item:betterdefaultbiomes:torch_arrow>);
 
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_sword");
 <recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/crystal_pickaxe");

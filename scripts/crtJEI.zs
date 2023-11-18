@@ -1,5 +1,7 @@
 import mods.jei.JEI;
 
+
+
 //删除禁用物品的jei显示
 mods.jei.JEI.hideMod("ftblibrary");
 mods.jei.JEI.hideRegex(".*sword.*");
@@ -188,6 +190,9 @@ JEI.hideIngredient(<item:bettercompat:terrasteel_bucket>);
 JEI.hideIngredient(<item:twist:slugs>);
 JEI.hideIngredient(<item:twist:slugger>);
 JEI.hideIngredient(<item:twist:spear>);
+JEI.hideIngredient(<item:minecraft:enchanted_book>);
+
+
 
 
 //添加物品jei描述

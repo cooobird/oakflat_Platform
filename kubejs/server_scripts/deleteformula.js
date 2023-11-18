@@ -23,4 +23,19 @@ onEvent('recipes', event => {
    event.remove({output:'elementalenhancement:rainbow_apple'})//删除彩虹苹果合成配方
    event.remove({output:'architects_palette:salmon_log'})//删除鲑鱼块合成配方
    event.remove({output:'architects_palette:cod_log'})//删除鳕鱼块合成配方
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:sharpness', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:smite', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:bane_of_arthropods', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:knockback', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:fire_aspect', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:looting', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:sweeping', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:sweeping', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:silk_touch', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:fortune', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:loyalty', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:impaling', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:riptide', 1)})
+   event.remove({output:Item.of('minecraft:enchanted_book').enchant('minecraft:riptide', 1)})
+   event.remove({output:'#itemfilters:check_nbt'})
 })

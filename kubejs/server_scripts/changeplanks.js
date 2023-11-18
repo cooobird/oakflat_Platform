@@ -413,4 +413,11 @@ event.recipes.createCutting(['4x shroomed:orange_shroomwood_planks'],['shroomed:
 event.shapeless('shroomed:purple_shroomwood_planks',['natural-progression:flint_hatchet','shroomed:purple_hard_mushroom_stem']).damageIngredient(Item.of('natural-progression:flint_hatchet'),1)
 event.shapeless('2x shroomed:purple_shroomwood_planks',['natural-progression:improved_saw','shroomed:purple_hard_mushroom_stem']).damageIngredient(Item.of('natural-progression:improved_saw'),1)
 event.recipes.createCutting(['4x shroomed:purple_shroomwood_planks'],['shroomed:purple_hard_mushroom_stem'])
+
+event.shapeless('autumnity:maple_planks',['natural-progression:flint_hatchet','autumnity:maple_log']).damageIngredient(Item.of('natural-progression:improved_saw'),1)
+event.shapeless('2x autumnity:maple_planks',['natural-progression:improved_saw','autumnity:maple_log']).damageIngredient(Item.of('natural-progression:improved_saw'),1)
+event.shapeless('2x autumnity:maple_planks',['natural-progression:improved_saw','autumnity:stripped_maple_log']).damageIngredient(Item.of('natural-progression:improved_saw'),1)
+event.recipes.createCutting(['4x autumnity:maple_planks'],['autumnity:maple_log'])
+
+    
 })
