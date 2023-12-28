@@ -1,0 +1,31 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "savanna"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "plains"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "beach"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": true,
+        "value": "beach"
+      }
+    ]
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "general": {
     "displayTooltip": true,
-    "shiftForDetails": false,
+    "shiftForDetails": true,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "iconMode": "TOP",
@@ -16,7 +16,7 @@
     "entityBlacklist": [
       ""
     ],
-    "onlyShowSmartNodes": false,
+    "onlyShowSmartNodes": true,
     "gogglesRequired": false
   },
   "overlay": {

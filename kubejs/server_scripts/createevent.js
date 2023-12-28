@@ -14,6 +14,11 @@ onEvent("player.tick",event=>{
         event.player.potionEffects.add("minecraft:slowness",2,1,false,false);
     }
 })
+onEvent("player.tick",event=>{
+    if(event.player.mainHandItem==('tconstruct:vein_hammer')){
+        event.player.potionEffects.add("minecraft:slowness",2,3,false,false);
+    }
+})
 //玩家使用轻型武器获得速度效果
 onEvent("player.tick",event=>{
     if(event.player.mainHandItem==('tconstruct:dagger')){
