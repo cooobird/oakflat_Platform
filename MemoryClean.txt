@@ -1,1 +1,1 @@
--XX:+ExplicitZGCInvokesConcurrent
+-XX:+ExplicitGCInvokesConcurrent

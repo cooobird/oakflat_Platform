@@ -1,9 +1,0 @@
-{
-    "type": "tconstruct:material_fluid",
-    "fluid": {
-        "name": "elementalenhancement:molten_gale_force",
-        "amount": 144
-    },
-    "temperature": 625,
-    "output": "tconstruct:gala_force"
-}

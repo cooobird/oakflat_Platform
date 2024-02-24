@@ -31,12 +31,13 @@ onEvent("player.tick",event=>{
     }
 })
 //进入服务器自强制启用飞轮的优化
-onEvent("player.tick",event=>{
+onEvent("player.logged_in",event=>{
     if(event.player.logged_in){
         event.server.runCommandSilent('flywheel backend off');
     }
 })
 //三魂获取
+
 
 
 

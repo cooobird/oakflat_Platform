@@ -1,14 +1,12 @@
 //修改起源物质合成配方
 <recipetype:botania:runic_altar>.addRecipe("theorigin",<item:extrabotany:theorigin>,300000,
 <item:elementalenhancement:agni_ingot>,<item:elementalenhancement:frost_ingot>,<item:elementalenhancement:earth_ingot>,
-<item:elementalenhancement:gale_force_ingot>,<item:elementalenhancement:nature_ingot>,<item:elementalenhancement:heavy_water_ingot>,<item:kubejs:material_tar>
-);
+<item:elementalenhancement:gale_force_ingot>,<item:elementalenhancement:nature_ingot>,<item:elementalenhancement:heavy_water_ingot>,<item:kubejs:material_tar>);
 //修改混沌物质合成配方
 <recipetype:botania:runic_altar>.addRecipe("thechaos",<item:extrabotany:thechaos>,300000,
 <item:extrabotany:shadowium>,<item:extrabotany:shadowium>,<item:extrabotany:shadowium>,<item:extrabotany:shadowium>,<item:extrabotany:shadowium>,
 <item:extrabotany:photonium>,<item:extrabotany:photonium>,<item:extrabotany:photonium>,<item:extrabotany:photonium>,<item:extrabotany:photonium>,
-<item:kubejs:material_tar>
-);
+<item:kubejs:material_tar>);
 //修改终末物质合成配方
 
 //修改宇宙之心合成配方
@@ -33,6 +31,7 @@
 mods.iceandfire.DragonForge.addRecipe("fire",<item:iceandfire:dragonsteel_fire_ingot>,<item:kubejs:dragonsteel_fire_billet>,<item:kubejs:soul_of_dragon_fire>);
 mods.iceandfire.DragonForge.addRecipe("ice",<item:iceandfire:dragonsteel_ice_ingot>,<item:kubejs:dragonsteel_ice_billet>,<item:kubejs:soul_of_dragon_ice>);
 mods.iceandfire.DragonForge.addRecipe("lightning",<item:iceandfire:dragonsteel_lightning_ingot>,<item:kubejs:dragonsteel_lightning_billet>,<item:kubejs:soul_of_dragon_lightning>);
+//修改亚空间物质合金锭合成
 
 
 

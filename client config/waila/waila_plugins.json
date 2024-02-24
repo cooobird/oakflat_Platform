@@ -50,7 +50,7 @@
   "waila": {
     "show_registry": false,
     "show_states": false,
-    "show_entity_hp": false,
+    "show_entity_hp": true,
     "show_entities": true
   },
   "storagedrawers": {
